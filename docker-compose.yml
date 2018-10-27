@@ -1,0 +1,23 @@
+version: '3.4'
+services:
+  curlpaste:
+    build: .
+    image: curlpastebuild:latest
+#    networks:
+#      - "traefikweb"
+#    labels:
+#      - "traefik.backend=curlpaste"
+#      - "traefik.docker.network=traefikweb"
+#      - "traefik.frontend.rule=Host: paste.mywebsite.com"
+#      - "traefik.enable=true"
+#      - "traefik.port=8000"
+### If using traefik, uncomment and comment ports section ###
+    ports:
+      - "80:8000"
+    volumes:
+      - "./data:/src/mydb"
+
+#networks:
+#  traefikweb:
+#    external: true
+
