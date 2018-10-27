@@ -7,6 +7,13 @@ This docker container spins up;
 
 Image size 296MB 
 
+## Docker Run : Quick start
+
+```
+docker run
+```
+Done
+
 
 ## Docker-compose: Getting Started
 
@@ -14,8 +21,6 @@ Image size 296MB
 git clone https://github.com/chasgames/docker-curlpaste curlpaste && cd $_
 docker-compose up -d
 ```
-
-Done.
 
 
 ## Configuring
