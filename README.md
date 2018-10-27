@@ -7,13 +7,13 @@ This docker container spins up;
 
 Image size 296MB 
 
-## Docker Run : Quick start
+## Docker Run: Quick start
 
 ```
 docker run -d -p "80:8000" chasg/curl-paste
 ```
 
-Done
+Done.
 
 
 ## Docker-compose: Getting Started
