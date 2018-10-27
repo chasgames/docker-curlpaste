@@ -18,5 +18,5 @@ RUN apk del .build-deps && rm -rf /tmp/*
 # Allows port 8000 to be publicly available
 EXPOSE 8000
 
-# The command uses nodemon to run the application
+# The command uses npm to run the application
 CMD ["npm", "run", "start-http"]
