@@ -10,8 +10,9 @@ Image size 296MB
 ## Docker Run : Quick start
 
 ```
-docker run
+docker run -d -p "80:8000" chasg/curl-paste
 ```
+
 Done
 
 
