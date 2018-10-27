@@ -11,6 +11,7 @@ Image size 296MB
 ## Docker-compose: Getting Started
 
 ```
+git clone https://github.com/chasgames/docker-curlpaste curlpaste && cd $_
 docker-compose up -d
 ```
 
