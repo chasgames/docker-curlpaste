@@ -43,10 +43,10 @@ docker-compose up -d
 
 ## Testing
 
-Simple test:
+Simple test:  
 ```echo "hello world" | curl -d@- https://mywebsite.com```
 
-Explaination:
+Explanation:  
 -d (http post data)  
 @ (specify file like curl -d @file.txt)  
 @- (tells curl to pull from STDIN, so we can pipe anything into it, e.g cat file.txt | curl -d @- www)  
