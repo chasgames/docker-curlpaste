@@ -41,8 +41,15 @@ docker-compose build --no-cache
 docker-compose up -d
 ```
 
+## Testing
 
+Simple test:
+```echo "hello world" | curl -d@- https://mywebsite.com```
 
+Explaination:
+-d (http post data)  
+@ (specify file like curl -d @file.txt)  
+@- (tells curl to pull from STDIN, so we can pipe anything into it, e.g cat file.txt | curl -d @- www)  
 
 #### Todo
 Configurable expire time through environment variable
