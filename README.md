@@ -5,7 +5,7 @@ This docker container spins up;
 * Latest [rook2pawn/curl-paste](https://github.com/rook2pawn/curl-paste)
 
 
-Image size 296MB 
+Image size [105MB](https://hub.docker.com/r/chasg/curl-paste/)
 
 ## Docker Run: Quick start
 
